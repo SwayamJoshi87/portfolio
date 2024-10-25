@@ -8,7 +8,7 @@ import { Heart } from "lucide-react"
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function PortfolioHome() {
+export function PortfolioHome() {
   return (
     <div className={`min-h-screen bg-black text-white ${inter.className}`}>
       <header className="border-b border-zinc-800">
